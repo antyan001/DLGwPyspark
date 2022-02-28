@@ -1,0 +1,22 @@
+{
+    "NRT_ACQUIRING": {
+        "COUNT": 3372,
+        "CTL": "2021-10-15 12:10:47",
+        "LAST_SESS_DATE": "2021-10-15"
+    },
+    "NRT_BUSINESS_CARD": {
+        "COUNT": 1992,
+        "CTL": "2021-10-15 11:50:26",
+        "LAST_SESS_DATE": "2021-10-15"
+    },
+    "NRT_CREDIT": {
+        "COUNT": 1071,
+        "CTL": "2021-10-15 08:10:07",
+        "LAST_SESS_DATE": "2021-10-15"
+    },
+    "NRT_STORIES": {
+        "COUNT": 356513,
+        "CTL": "2021-01-25 05:11:43",
+        "LAST_SESS_DATE": "2021-01-25"
+    }
+}
