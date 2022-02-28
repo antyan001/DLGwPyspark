@@ -1,0 +1,24 @@
+set hive.execution.engine=mr;
+set yarn.nodemanager.resource.cpu-vcores=16;
+set yarn.nodemanager.resource.memory-mb=10000;
+set yarn.scheduler.minimum-allocation-mb=512;
+set yarn.scheduler.maximum-allocation-mb=10000;
+set yarn.scheduler.maximum-allocation-vcores=16;
+set mapreduce.job.hdfs-servers=hdfs://nsld3:8020/,hdfs://clsklcib:8020/,hdfs://clsklod:8020/,hdfs://clsklsbx:8020/,hdfs://clsklsmd:8020/
+-- set mapreduce.job.maps=1;
+set hive.merge.mapfiles=false;
+set mapreduce.task.io.sort.mb=2024;
+set mapreduce.map.cpu.vcores=8;
+set mapreduce.map.memory.mb=6000;
+set mapreduce.input.fileinputformat.split.maxsize=1024000000;
+-- set mapreduce.reduce.memory.mb=10000;
+-- set hive.exec.reducers.max=40;
+-- set mapreduce.job.reduces=40;
+
+set hive.metastore.fshandler.threads=15;
+set hive.msck.repair.batch.size=1000;
+set hive.merge.smallfiles.avgsize=256000000;
+set hive.merge.size.per.task=256000000;
+
+MSCK REPAIR TABLE GOOGLE_ANALYTICS_VISIT;
+--ALTER TABLE GOOGLE_ANALYTICS_VISIT RECOVER PARTITIONS;
