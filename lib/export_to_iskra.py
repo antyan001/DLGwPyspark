@@ -187,7 +187,7 @@ class ExportToIskra:
 #         pddf=df.toPandas()
 #         ld = loader.Loader(init_dsn=True, encoding='cp1251',  sep=',')
 #         ld.upload_df_or_csv(pddf, "GA_ALL_SCENARIOS_HIST", parallel=1,
-#                     password='Uthvfy123', path= None,
+#                     password='', path= None,
 #                     isclobe=1, isuseclobdct=1, verbose=1, njobs=5)
 
     @class_method_logger
